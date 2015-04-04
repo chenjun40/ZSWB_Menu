@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/occupRatePicShow_layout_background"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:focusable="true" 
+	android:focusableInTouchMode="true" >
+    <LinearLayout
+    android:id="@+id/occupRatePicShow_layout_up_background"
+	android:orientation="vertical"
+	android:background="@drawable/androidwait"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_weight="1">
+		<ImageView  
+		android:id="@+id/show"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:scaleType="fitCenter"/>
+	</LinearLayout>
+	<LinearLayout
+    android:id="@+id/occupRatePicShow_layout_down_background"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:background="@drawable/down_background"
+	android:layout_height="fill_parent"
+	android:layout_weight="1">
+		<TextView
+	    android:id="@+id/textview_get_url"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+		<TextView
+	    android:id="@+id/textview_picture_url"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+		<Button android:id="@+id/button_back"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="@string/back" />
+    </LinearLayout>
+</LinearLayout>

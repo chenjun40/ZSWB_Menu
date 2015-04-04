@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:focusable="true" 
+	android:focusableInTouchMode="true" >
+    <LinearLayout
+    android:id="@+id/linearlayout_back1"
+	android:orientation="vertical"
+	android:background="@drawable/up_background"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_weight="1">
+	    //北进口上游
+		<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="240dp"
+		android:layout_marginTop="28dp">
+			<Button android:id="@+id/button_41751051" 
+		    android:layout_width="40dp"
+			android:layout_height="20dp"/>
+			<Button android:id="@+id/button_41751052" 
+		    android:layout_width="25dp"
+			android:layout_height="20dp"  />
+		</LinearLayout>
+		//北进口
+		<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="240dp"
+		android:layout_marginTop="45dp">
+			<Button android:id="@+id/button_41951011" 
+		    android:layout_width="40dp"
+			android:layout_height="20dp"  />
+			<Button android:id="@+id/button_41951012" 
+		    android:layout_width="25dp"
+			android:layout_height="20dp"  />
+		</LinearLayout>
+		<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="240dp"
+		android:layout_marginTop="195dp">
+			<Button android:id="@+id/button_43151051" 
+		    android:layout_width="40dp"
+			android:layout_height="20dp"  />
+			<Button android:id="@+id/button_43151052" 
+		    android:layout_width="25dp"
+			android:layout_height="20dp"  />
+		</LinearLayout>
+		//南进口
+		<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="320dp"
+		android:layout_marginTop="28dp">
+			<Button android:id="@+id/button_41951032" 
+		    android:layout_width="25dp"
+			android:layout_height="20dp"  />
+			<Button android:id="@+id/button_41951031" 
+		    android:layout_width="40dp"
+			android:layout_height="20dp"  />
+		</LinearLayout>
+		<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="240dp"
+		android:layout_marginTop="95dp">
+			<Button android:id="@+id/button_43251011" 
+		    android:layout_width="40dp"
+			android:layout_height="20dp"  />
+			<Button android:id="@+id/button_43251012" 
+		    android:layout_width="25dp"
+			android:layout_height="20dp"  />
+		</LinearLayout>
+		//南进口上游
+		<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="280dp"
+		android:layout_marginTop="40dp">
+			<Button android:id="@+id/button_43251131" 
+		    android:layout_width="25dp"
+			android:layout_height="20dp"  />
+		</LinearLayout>
+		<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="320dp"
+		android:layout_marginTop="15dp">
+			<Button android:id="@+id/button_43151072" 
+		    android:layout_width="25dp"
+			android:layout_height="20dp"  />
+			<Button android:id="@+id/button_43151071" 
+		    android:layout_width="40dp"
+			android:layout_height="20dp"  />
+		</LinearLayout>
+		<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="430dp"
+		android:layout_marginTop="5dp">
+			<Button android:id="@+id/button_43251161" 
+		    android:layout_width="20dp"
+			android:layout_height="25dp"  />
+		</LinearLayout>
+		<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="320dp"
+		android:layout_marginTop="90dp">
+			<Button android:id="@+id/button_43251031" 
+		    android:layout_width="25dp"
+			android:layout_height="20dp"  />
+			<Button android:id="@+id/button_43251032" 
+		    android:layout_width="40dp"
+			android:layout_height="20dp"  />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+    android:id="@+id/linearlayout_back2"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:background="@drawable/down_background"
+	android:layout_height="fill_parent"
+	android:layout_weight="5">
+    </LinearLayout>
+</LinearLayout>

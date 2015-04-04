@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="text_circle_num">
+        <item>41751051</item>
+        <item>41751052</item>
+        <item>41951011</item>
+        <item>41951012</item>
+        <item>43151051</item>
+        <item>43151052</item>
+        <item>41951031</item>
+        <item>41951032</item>
+        <item>43251011</item>
+        <item>43251012</item>
+        <item>43251131</item>
+        <item>43151071</item>
+        <item>43151072</item>
+        <item>43251161</item>
+        <item>43251031</item>
+        <item>43251032</item>
+    </string-array>
+    
+    <string-array name="circle_num_items">
+        <item>41751051</item>
+        <item>41751052</item>
+        <item>41951011</item>
+        <item>41951012</item>
+        <item>43151051</item>
+        <item>43151052</item>
+        <item>41951031</item>
+        <item>41951032</item>
+    </string-array>
+   
+</resources>

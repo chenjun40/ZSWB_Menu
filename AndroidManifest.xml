@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.com.sgmsc.ZSWB"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application android:icon="@drawable/ic_app" android:label="@string/app_name">
+        <activity android:name="cn.com.sgmsc.WHJT.FrameTabActivity"
+                  android:label="@string/WHJT">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name="cn.com.sgmsc.WHJT.OccupancyRateActivity" android:label="@string/OccupancyRateActivity" />
+		<activity android:name="cn.com.sgmsc.WHJT.WeeklyAnalysisActivity" android:label="@string/AnalysisActivity" />
+		<activity android:name="cn.com.sgmsc.WHJT.Blank2Activity" android:label="@string/Blank1Activity" />
+		<activity android:name="cn.com.sgmsc.WHJT.Blank1Activity" android:label="@string/Blank2Activity" />
+		<activity android:name="cn.com.sgmsc.WHJT.OccupancyRatePictureShowActivity" android:label="@string/OccupancyRatePictureShowActivity" />
+    </application>
+
+</manifest>
